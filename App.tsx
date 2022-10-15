@@ -1,13 +1,16 @@
 import React from 'react';
 
-import { NativeBaseProvider, Text, Box } from 'native-base';
+import { NavigationContainer } from '@react-navigation/native';
+import { NativeBaseProvider } from 'native-base';
+
+import { MainNavigator } from '_navigators';
 
 export const App = () => {
   return (
     <NativeBaseProvider>
-      <Box flex={1} bg="#fff" alignItems="center" justifyContent="center">
-        <Text>WELCOME</Text>
-      </Box>
+      <NavigationContainer>
+        <MainNavigator />
+      </NavigationContainer>
     </NativeBaseProvider>
   );
 };
