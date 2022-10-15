@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { Text, Box } from 'native-base';
+import { Box, Text } from 'native-base';
 
-export const HomeScreen = () => {
+import type { HomeScreenProps } from '_navigators';
+
+export const HomeScreen = ({}: HomeScreenProps) => {
   return (
     <Box flex={1} bg="#fff" alignItems="center" justifyContent="center">
       <Text>HOME</Text>
