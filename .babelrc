@@ -8,6 +8,7 @@
         "alias": {
           "_assets": "./assets",
           "_components": "./src/components",
+          "_icons": "./src/icons",
           "_navigators": "./src/navigators",
           "_screens": "./src/screens",
           "_themes": "./src/themes"
