@@ -1,4 +1,7 @@
-import type { DrawerScreenProps } from '@react-navigation/drawer';
+import type {
+  DrawerNavigationProp,
+  DrawerScreenProps,
+} from '@react-navigation/drawer';
 
 export type DrawerParamList = {
   Home: undefined;
@@ -7,3 +10,5 @@ export type DrawerParamList = {
 
 export type HomeScreenProps = DrawerScreenProps<DrawerParamList, 'Home'>;
 export type LoginScreenProps = DrawerScreenProps<DrawerParamList, 'Login'>;
+
+export type HookNavigationProps = DrawerNavigationProp<DrawerParamList>;

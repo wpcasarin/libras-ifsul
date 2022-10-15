@@ -1,5 +1,9 @@
 import { MainNavigator } from './MainNavigator';
-import type { HomeScreenProps, LoginScreenProps } from './types';
+import type {
+  HomeScreenProps,
+  HookNavigationProps,
+  LoginScreenProps,
+} from './types';
 
 export { MainNavigator };
-export type { HomeScreenProps, LoginScreenProps };
+export type { HomeScreenProps, LoginScreenProps, HookNavigationProps };
