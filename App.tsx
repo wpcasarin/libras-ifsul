@@ -1,10 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+
+import { NativeBaseProvider, Text, Box } from 'native-base';
 
 export const App = () => {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>WELCOME</Text>
-    </View>
+    <NativeBaseProvider>
+      <Box flex={1} bg="#fff" alignItems="center" justifyContent="center">
+        <Text>WELCOME</Text>
+      </Box>
+    </NativeBaseProvider>
   );
 };
