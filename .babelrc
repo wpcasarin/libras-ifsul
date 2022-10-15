@@ -6,9 +6,12 @@
       {
         "root": ["./"],
         "alias": {
-          "_assets": "./assets"
+          "_assets": "./assets",
+          "_navigators": "./src/navigators",
+          "_screens": "./src/screens"
         }
       }
-    ]
+    ],
+    "react-native-reanimated/plugin"
   ]
 }
