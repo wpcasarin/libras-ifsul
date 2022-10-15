@@ -8,7 +8,6 @@ import {
   VStack,
   FormControl,
   Input,
-  Link,
   HStack,
   Button,
   Text,
@@ -48,37 +47,42 @@ export const FormLogin = () => {
           <FormControl>
             <FormControl.Label>Senha</FormControl.Label>
             <Input type="password" />
-            <Link
+            <Button
+              variant="link"
+              size="xs"
+              alignSelf="flex-end"
+              mt="1"
               _text={{
                 fontSize: 'xs',
                 fontWeight: '500',
                 color: 'primary.500',
-              }}
-              alignSelf="flex-end"
-              mt="1">
+              }}>
               Esqueceu a senha?
-            </Link>
+            </Button>
           </FormControl>
           <Button mt="2" onPress={() => navigation.goBack()}>
             Cadastrar
           </Button>
-          <HStack mt="6" justifyContent="center">
+          <HStack mt="4" justifyContent="flex-start" alignItems="center">
             <Text
               fontSize="sm"
               color="coolGray.600"
               _dark={{
                 color: 'warmGray.200',
               }}>
-              Não possuo cadastro.{' '}
+              Não possuí cadastro?
             </Text>
-            <Link
+            <Button
+              size="sm"
+              variant="link"
+              ml="-1"
               _text={{
                 color: 'primary.500',
                 fontWeight: 'medium',
                 fontSize: 'sm',
               }}>
               Cadastre-se
-            </Link>
+            </Button>
           </HStack>
         </VStack>
       </Box>
