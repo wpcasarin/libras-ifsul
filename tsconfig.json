@@ -5,9 +5,11 @@
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
     "baseUrl": "./",                                     /* Base directory to resolve non-absolute module names. */
     "paths": {                                           /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
-      "_assets/*": ["./assets/*"],                       
+      "_assets/*": ["./assets/*"],
+      "_components/*": ["./src/components/*"],                       
       "_navigators": ["./src/navigators"],
-      "_screens": ["./src/screens"]
+      "_screens": ["./src/screens"],
+      "_themes": ["./src/themes"]
     }                                
   }
 }

@@ -7,8 +7,10 @@
         "root": ["./"],
         "alias": {
           "_assets": "./assets",
+          "_components": "./src/components",
           "_navigators": "./src/navigators",
-          "_screens": "./src/screens"
+          "_screens": "./src/screens",
+          "_themes": "./src/themes"
         }
       }
     ],
