@@ -11,7 +11,8 @@
           "_icons": "./src/icons",
           "_navigators": "./src/navigators",
           "_screens": "./src/screens",
-          "_themes": "./src/themes"
+          "_themes": "./src/themes",
+          "_util": "./src/util"
         }
       }
     ],
