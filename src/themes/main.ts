@@ -4,7 +4,7 @@ export const main = extendTheme({
   colors: {
     // Add new color
     primary: {
-      50: '#82e97d',
+      50: '#d7fbd5',
       100: '#67dd61',
       200: '#4ed047',
       300: '#3eb738',
