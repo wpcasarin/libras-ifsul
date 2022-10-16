@@ -1,3 +1,4 @@
 import { AppBar } from './AppBar';
+import { CustomDrawer } from './CustomDrawer';
 
-export { AppBar };
+export { AppBar, CustomDrawer };
